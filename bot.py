@@ -28,7 +28,7 @@ from aiogram.types import (
 # =========================================================
 #   CONFIGURATION
 # =========================================================
-BOT_TOKEN = os.getenv("BOT_TOKEN", "8655080601:AAH5d6MvlC9RPP6Gqp6s9wvOV2EO8ZJocKA")  # CHANGE THIS
+BOT_TOKEN = os.getenv("BOT_TOKEN")  # CHANGE THIS
 ADMIN_ID = int(os.getenv("ADMIN_ID", "8502686983"))  # CHANGE THIS
 DB_PATH = os.getenv("DB_PATH", "earnbot.db")
 
